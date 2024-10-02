@@ -37,7 +37,7 @@
 
 namespace WebCore {
 
-#include "CSSGrammar.h"
+#include "CSSGrammar.hpp"
 
 enum CharacterType {
     // Types for the main switch.

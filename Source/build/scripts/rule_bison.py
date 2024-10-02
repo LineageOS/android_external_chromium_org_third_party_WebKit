@@ -95,7 +95,7 @@ outputHFile.close()
 os.unlink(outputHTmp)
 
 # Rewrite the generated header with #include guards.
-outputH = os.path.join(outputDir, inputRoot + '.h')
+outputH = os.path.join(outputDir, inputRoot + '.hpp')
 
 outputHFile = open(outputH, 'w')
 print >>outputHFile, '#ifndef %sH' % inputRoot

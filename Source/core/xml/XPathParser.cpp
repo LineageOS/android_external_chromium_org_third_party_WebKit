@@ -42,7 +42,7 @@ using namespace Unicode;
 using namespace XPath;
 
 extern int xpathyyparse(WebCore::XPath::Parser*);
-#include "XPathGrammar.h"
+#include "XPathGrammar.hpp"
 
 Parser* Parser::currentParser = 0;
 
